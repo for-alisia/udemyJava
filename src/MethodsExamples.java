@@ -1,9 +1,9 @@
 public class MethodsExamples {
     private String firstName = "John";
     private String lastName = "Doe";
-    // Static (class) initializer - if static field needs complicated logic
     public static int[] nums;
-    // It's just an anonymous method
+    // Static (class) initializer - if static field needs complicated logic
+    // It's just an anonymous method to prepare class
     static {
         nums = new int[3];
         nums[0] = 1;
