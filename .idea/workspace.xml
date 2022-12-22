@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16520c9d-d3f4-478b-8ef5-8917151a788b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MethodsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodsExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StringExamples">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="UdemyJava" />
@@ -46,8 +47,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringExamples" />
+      <module name="UdemyJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringExamples" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
