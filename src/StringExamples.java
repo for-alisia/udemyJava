@@ -29,5 +29,45 @@ public class StringExamples {
         // Blank - counts meaningful chars, whitespace is not meaningful char
         System.out.println(blank.isBlank()); // true
         System.out.println(empty.isBlank()); // true
+
+        // Replacing - case-sensitive
+        String replaceText = "My bad idea is bad?";
+        System.out.println(replaceText.replace("bad", "good"));
+        System.out.println(replaceText.replace('?', '!'));
+
+        // Remove spaces
+        // trim is older and does not support difference between languages
+        String withSpace = "  my text  ";
+        System.out.format("'%s'", withSpace.strip());
+        System.out.format("'%s'", withSpace.stripLeading());
+        System.out.format("'%s'", withSpace.stripTrailing());
+        System.out.format("'%s'", withSpace.trim());
+        String multiline = """
+                    first line
+                        second line
+                third line
+                """;
+        System.out.format("'%s'", multiline.stripIndent());
+
+        // charAt
+        String apple = "apple";
+        int length = apple.length();
+        if (length > 100) {
+            System.out.println(apple.charAt(100)); // throws an exception as index is out of boundaries
+        }
+        System.out.println(apple.charAt(3));
+
+        // compareTo - returns negative int if first word before in alphabet
+        // 0 - the same words
+        // positive - if second word earlier alphabetically
+        String fruit = "apple";
+        String vegetable = "broccoli";
+
+        System.out.println(fruit.compareTo(vegetable)); // -1
+        System.out.println(fruit.compareToIgnoreCase(vegetable)); // non-case-sensitive
+
+        // Contains
+        String containsMe = "Can anyone hear me?";
+        System.out.println(containsMe.contains("me")); // true
     }
 }
