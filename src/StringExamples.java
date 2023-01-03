@@ -18,17 +18,19 @@ public class StringExamples {
 
         // To check info about string methods
         // go to specific method of this class
-        myEx.workingWithChars();
-        myEx.blankOrEmpty();
-        myEx.replaceText();
-        myEx.comparingStrings();
-        myEx.concatStrings();
-        myEx.containsSubstring();
-        myEx.lengthOfTheString();
-        myEx.removeSpaces();
-        myEx.lowerCase();
-        myEx.upperCase();
-        myEx.substring();
+//        myEx.workingWithChars();
+//        myEx.blankOrEmpty();
+//        myEx.replaceText();
+//        myEx.comparingStrings();
+//        myEx.concatStrings();
+//        myEx.containsSubstring();
+//        myEx.lengthOfTheString();
+//        myEx.removeSpaces();
+//        myEx.lowerCase();
+//        myEx.upperCase();
+//        myEx.substring();
+//        myEx.indexOf();
+        myEx.split();
     }
 
     private void lengthOfTheString() {
@@ -158,5 +160,35 @@ public class StringExamples {
         String restPart = str.substring(1); // "pple"
 
         System.out.println(firstLetter.toUpperCase().concat(restPart));
+    }
+
+    private void indexOf() {
+        String myText = "My name is Elena";
+
+        // Stops when finds the first match (case-sensitive)
+        // If n matches - returns -1
+        System.out.println(myText.indexOf("Elena")); // 11
+        System.out.println(myText.indexOf(65)); // We can pass a code of char as arg, -1 (65 does not here)
+        System.out.println(myText.lastIndexOf("na")); // looks from the end - 14
+        System.out.println(myText.indexOf("a", 7)); // skips 7 chars - 15
+    }
+
+    private void split() {
+        // Let's pretend it's a data from spreadsheet as csv
+        String csvLike = """
+                Anna,Doe,1985,Atlanta,USA
+                John,Smith,1960,London,UK
+                Karolina,Krzyszek,Krakow,Poland
+                """;
+        String[] rows = csvLike.split("\n");
+        // as a second arg we can pass limit (to limit a number of elem)
+        // rest string part will be put under last array elem
+
+        System.out.println(rows.length); // 3
+
+        String[] firstPerson = rows[0].split(",");
+
+        System.out.println(firstPerson[0]); // Anna
+        System.out.println(firstPerson[1]); // Doe
     }
 }
