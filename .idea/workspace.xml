@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16520c9d-d3f4-478b-8ef5-8917151a788b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Blank_Empty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/ChangeCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Chars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Comparing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Concatination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Contains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Creation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/IndexOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Length.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/RemoveSpaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/ReplaceText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Start_EndsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Substring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringExamples.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +54,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringExamples">
+  <component name="RunManager" selected="Application.Creation">
+    <configuration name="Creation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.Creation" />
+      <module name="UdemyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="UdemyJava" />
@@ -56,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Creation" />
         <item itemvalue="Application.StringExamples" />
         <item itemvalue="Application.Main" />
       </list>
