@@ -32,5 +32,7 @@ public class Basic {
         System.out.println("312-048".matches("\\d{2,3}[-\\s]?\\d{3}")); // true
         System.out.println("31223-048".matches("\\d{2,}[-\\s]?\\d{3}")); // true
         System.out.println("11-11-11".matches("(\\d{2}-?){3}")); // true - (...){2} - grouping
+
+        // To use special symbols like ()*? as literals, we need to escape them with \\
     }
 }
