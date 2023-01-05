@@ -15,12 +15,12 @@ public class ParseExample {
                 """;
         String transcriptRegExp = """
         Student\\sNumber:\\s*(?<studentId>\\d{10})\\s* # student id
-        Grade:\\s*(?<studentGrade>[0,1]?\\d).* # grade
+        Grade:\\s*(?<studentGrade>[0,1]?\\d)\\b.* # grade
         Birthdate:\\s*(?<birthDay>\\d{2})/(?<birthMonth>\\d{2})/(?<birthYear>\\d{4}).* # birth date
-        Gender:\\s*(?<studentGender>[M,F]).* # Gender
-        State\\sID:\\s*(?<stateId>\\d{10}).* # State ID
-        Cumulative\\sGPA\\s\\(Weighted\\)\\s*(?<wGPA>\\d[.,]\\d{2}).* # weighted GPA
-        Cumulative\\sGPA\\s\\(Unweighted\\)\\s*(?<unwGPA>\\d[.,]\\d{2}).* # unweighted GPA
+        Gender:\\s*(?<studentGender>[M,F])\\b.* # Gender
+        State\\sID:\\s*(?<stateId>\\d{10})\\b.* # State ID
+        Cumulative\\sGPA\\s\\(Weighted\\)\\s*(?<wGPA>\\d[.,]\\d{2})\\b.* # weighted GPA
+        Cumulative\\sGPA\\s\\(Unweighted\\)\\s*(?<unwGPA>\\d[.,]\\d{2})\\b.* # unweighted GPA
         """;
         Pattern transcriptPat = Pattern.compile(transcriptRegExp, Pattern.DOTALL | Pattern.COMMENTS);
         Matcher transriptMatcher = transcriptPat.matcher(transcript);

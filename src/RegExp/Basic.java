@@ -25,6 +25,9 @@ public class Basic {
         // \s - space character + quantifiers - {}, +, *, ?
         // {3} - 3 chars, {2,3} - 2 or 3 chars, {2,} - 2 or more (no upper limit)
         // + - one or more, * - zero or more, ? - zero or one
+        // N! * is greedy (under the hood it takes all the rest of the string and looks backward from the end)
+        // Sometimes it can lead to unexpected results - use smth quite unique to anchor *
+        // *? - can fix this issue, it shows regExp engine stop this greedy behaviour from happening
         System.out.println("31-048".matches("\\d{2}[-\\s]\\d{3}")); // true - with quantifier - delimiter can be - or space
         System.out.println("31   048".matches("\\d{2}[-\\s]+\\d{3}")); // true - with quantifier - delimiter can be one or more - or space
         System.out.println("31048".matches("\\d{2}[-\\s]*\\d{3}")); // true - with quantifier - delimiter can be zero or more - or space
