@@ -7,6 +7,7 @@
 - Look for built-in: **Cmd + O**
 - Copy a line: **Cmd + D**
 - Move a line: **Shift + Opt + Up/Down**
+- Change selection mode: **Shift + Cmd + 8**
 
 
 ## Abrs

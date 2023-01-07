@@ -32,7 +32,26 @@ public class NumbersBasic {
 
         System.out.println(myDouble - mySecondDouble); // 1.0499999999998 - we are loosing accuracy here
 
-        System.out.println(myByte);
-        System.out.println(myShort);
+        // Other systems
+        // Hexadecimal
+        int hex = 0x1f;
+        byte binary = 0b01101;
+
+        // With pipe (it allows to sum up binaries)
+        int bpipe = 0b01 | 0b10; // 3 (0b01 - 1, 0b10 - 2, | is like + (not exactly, it operates bits), so it means 1 + 2)
+        int dpipe = 1 | 2 | 4; // 7 (we can use pipe with hex numbers also, but it's not exactly a sum!)
+        System.out.println(dpipe);
+        // Binary OR (|)
+        // 0    1   0   1 (first binary)
+        // 0    1   1   0 (second binary)
+        // 0    1   1   1 (result binary)
+
+        // Binary AND
+        // 0    1   0   1 (first binary)
+        // 0    1   1   0 (second binary)
+        // 0    1   0   0 (result binary)
+        System.out.println(bpipe & 2); // Bit mask - returns 2 - it means that according bit is on
+        // Bit masks are using in IPs addresses
+
     }
 }
