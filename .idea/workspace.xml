@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16520c9d-d3f4-478b-8ef5-8917151a788b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Numbers/CompoundInterestCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Numbers/FormatNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Numbers/NumericWrappers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,23 +40,10 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CompoundInterestCalc">
+  <component name="RunManager" selected="Application.NumericWrappers">
     <configuration name="BigDecimalNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BigDecimalNumbers" />
       <module name="UdemyJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComparingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numbers.ComparingNumbers" />
-      <module name="UdemyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Numbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numbers.MathExamples" />
+    <configuration name="FormatNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Numbers.FormatNumbers" />
       <module name="UdemyJava" />
       <extension name="coverage">
         <pattern>
@@ -99,13 +87,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumericWrappers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Numbers.NumericWrappers" />
+      <module name="UdemyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Numbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumericWrappers" />
+        <item itemvalue="Application.FormatNumbers" />
         <item itemvalue="Application.CompoundInterestCalc" />
         <item itemvalue="Application.Numbers.BigDecimalNumbers" />
         <item itemvalue="Application.BigDecimalNumbers" />
-        <item itemvalue="Application.ComparingNumbers" />
-        <item itemvalue="Application.MathExamples" />
       </list>
     </recent_temporary>
   </component>
