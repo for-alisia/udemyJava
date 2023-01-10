@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16520c9d-d3f4-478b-8ef5-8917151a788b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Numbers/BigDecimalNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Numbers/ComparingNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Numbers/CompoundInterestCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Numbers.BigDecimalNumbers">
+  <component name="RunManager" selected="Application.CompoundInterestCalc">
     <configuration name="BigDecimalNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BigDecimalNumbers" />
       <module name="UdemyJava" />
@@ -61,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numbers.MathExamples" />
+    <configuration name="CompoundInterestCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Numbers.CompoundInterestCalc" />
       <module name="UdemyJava" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathStuff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numbers.MathStuff" />
+    <configuration name="MathExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Numbers.MathExamples" />
       <module name="UdemyJava" />
       <extension name="coverage">
         <pattern>
@@ -102,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompoundInterestCalc" />
         <item itemvalue="Application.Numbers.BigDecimalNumbers" />
         <item itemvalue="Application.BigDecimalNumbers" />
         <item itemvalue="Application.ComparingNumbers" />
         <item itemvalue="Application.MathExamples" />
-        <item itemvalue="Application.MathStuff" />
       </list>
     </recent_temporary>
   </component>
