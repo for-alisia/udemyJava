@@ -62,6 +62,7 @@ public class Conditions {
         System.out.println(currentValue + currentTotal);
 
         // Switch with pattern matching - available from Java 17 in experimental mode
+        // Supports null
         String srt = "Hi there";
         String[] arr = { "hi", "there" };
 
@@ -70,7 +71,7 @@ public class Conditions {
         switch(obj) {
             case String msg -> System.out.println("It's a string " + msg);
             case String[] sarr -> System.out.printf("It's an array of %d elements%n", sarr.length);
-            default -> System.out.println("No idea what is it");
+            case null, default -> System.out.println("No idea what is it");
         }
     }
 }
