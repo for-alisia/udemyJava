@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16520c9d-d3f4-478b-8ef5-8917151a788b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ControlFlow/Loops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ControlFlow/Conditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControlFlow/Conditions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Conditions">
+  <component name="RunManager" selected="Application.Loops">
     <configuration name="CompoundInterestCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Numbers.CompoundInterestCalc" />
       <module name="UdemyJava" />
@@ -79,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Numbers.BigDecimalNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numbers.BigDecimalNumbers" />
+    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ControlFlow.Loops" />
       <module name="UdemyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Numbers.*" />
+          <option name="PATTERN" value="ControlFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Loops" />
         <item itemvalue="Application.Conditions" />
         <item itemvalue="Application.NumericWrappers" />
         <item itemvalue="Application.FormatNumbers" />
         <item itemvalue="Application.CompoundInterestCalc" />
-        <item itemvalue="Application.Numbers.BigDecimalNumbers" />
       </list>
     </recent_temporary>
   </component>
