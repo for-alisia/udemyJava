@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16520c9d-d3f4-478b-8ef5-8917151a788b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mainToTest/pro/elenaromanova/calculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/pro/elenaromanova/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pro/elenaromanova/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,46 +42,27 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "/Users/alisia/Projects/JavaProjects/basicJava/UdemyJava/src/mainToTest",
     "last_opened_file_path": "/Users/alisia/Projects/JavaProjects/basicJava/UdemyJava",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Loops">
-    <configuration name="CompoundInterestCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numbers.CompoundInterestCalc" />
-      <module name="UdemyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Numbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pro.elenaromanova.calculator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorTest.canAddMaxIntPlusOne">
     <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ControlFlow.Conditions" />
       <module name="UdemyJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ControlFlow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FormatNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numbers.FormatNumbers" />
-      <module name="UdemyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Numbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +96,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pro.elenaromanova.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pro.elenaromanova.calculator" />
+      <option name="MAIN_CLASS_NAME" value="pro.elenaromanova.calculator.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.canAddMaxIntPlusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pro.elenaromanova.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pro.elenaromanova.calculator" />
+      <option name="MAIN_CLASS_NAME" value="pro.elenaromanova.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="canAddMaxIntPlusOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.canAddMaxIntPlusOne" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.Loops" />
         <item itemvalue="Application.Conditions" />
         <item itemvalue="Application.NumericWrappers" />
-        <item itemvalue="Application.FormatNumbers" />
-        <item itemvalue="Application.CompoundInterestCalc" />
       </list>
     </recent_temporary>
   </component>

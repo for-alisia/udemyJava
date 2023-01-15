@@ -8,6 +8,7 @@
 - Copy a line: **Cmd + D**
 - Move a line: **Shift + Opt + Up/Down**
 - Change selection mode: **Shift + Cmd + 8**
+- Go to the according test class: **Shift + Cmd + T**
 
 
 ## Abrs
