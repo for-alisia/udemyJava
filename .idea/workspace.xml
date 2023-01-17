@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16520c9d-d3f4-478b-8ef5-8917151a788b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mainToTest/pro/elenaromanova/guessingGame/GuessingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/pro/elenaromanova/guessingGame/GuessingGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainToTest/pro/elenaromanova/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainToTest/pro/elenaromanova/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/pro/elenaromanova/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pro/elenaromanova/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "/Users/alisia/Projects/JavaProjects/basicJava/UdemyJava/src/mainToTest",
+    "last_directory_selection": "/Users/alisia/Projects/JavaProjects/basicJava/UdemyJava/src/mainToTest/pro/elenaromanova",
     "last_opened_file_path": "/Users/alisia/Projects/JavaProjects/basicJava/UdemyJava",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
@@ -51,23 +51,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pro.elenaromanova.guessingGame" />
       <recent name="pro.elenaromanova.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ControlFlow.Loops" />
-      <module name="UdemyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ControlFlow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GuessingGameTest.testRandomNumberGeneration">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyJava" />
       <extension name="coverage">
@@ -79,22 +67,6 @@
       <option name="PACKAGE_NAME" value="pro.elenaromanova.calculator" />
       <option name="MAIN_CLASS_NAME" value="pro.elenaromanova.calculator.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.annuityExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UdemyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pro.elenaromanova.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pro.elenaromanova.calculator" />
-      <option name="MAIN_CLASS_NAME" value="pro.elenaromanova.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="annuityExample" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,17 +87,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.canAddMaxIntPlusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuessingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pro.elenaromanova.calculator.*" />
+          <option name="PATTERN" value="pro.elenaromanova.guessingGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pro.elenaromanova.calculator" />
-      <option name="MAIN_CLASS_NAME" value="pro.elenaromanova.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="canAddMaxIntPlusOne" />
+      <option name="PACKAGE_NAME" value="pro.elenaromanova.guessingGame" />
+      <option name="MAIN_CLASS_NAME" value="pro.elenaromanova.guessingGame.GuessingGameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessingGameTest.testRandomNumberGeneration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pro.elenaromanova.guessingGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pro.elenaromanova.guessingGame" />
+      <option name="MAIN_CLASS_NAME" value="pro.elenaromanova.guessingGame.GuessingGameTest" />
+      <option name="METHOD_NAME" value="testRandomNumberGeneration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessingGameTest.testSimpleWinSituation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pro.elenaromanova.guessingGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pro.elenaromanova.guessingGame" />
+      <option name="MAIN_CLASS_NAME" value="pro.elenaromanova.guessingGame.GuessingGameTest" />
+      <option name="METHOD_NAME" value="testSimpleWinSituation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuessingGameTest.testRandomNumberGeneration" />
+        <item itemvalue="JUnit.GuessingGameTest" />
+        <item itemvalue="JUnit.GuessingGameTest.testSimpleWinSituation" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.annuityPractice2" />
-        <item itemvalue="JUnit.CalculatorTest.annuityExample" />
-        <item itemvalue="JUnit.CalculatorTest.canAddMaxIntPlusOne" />
-        <item itemvalue="Application.Loops" />
       </list>
     </recent_temporary>
   </component>
