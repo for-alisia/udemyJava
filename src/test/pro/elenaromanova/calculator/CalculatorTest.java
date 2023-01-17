@@ -1,6 +1,7 @@
 package pro.elenaromanova.calculator;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -43,9 +44,25 @@ public class CalculatorTest {
     }
 
     @Test
+    @Disabled
+    // @Ignore - earlier than JUnit 5
     public void canAddMaxIntPlusOne() {
         int sum = calc.add(Integer.MAX_VALUE, 1);
         // Failing test - we have a bug here
         assertEquals(Integer.MAX_VALUE + 1L, sum);
+    }
+
+    @Test
+    public void annuityExample() {
+        String answer = calc.calcAnnuity("22000", 7, "0.06", 1);
+
+        assertEquals("$184,664.43", answer);
+    }
+
+    @Test
+    public void annuityPractice2() {
+        String answer = calc.calcAnnuity("1200", 10, "0.08", 4);
+
+        assertEquals("$72,482.38", answer);
     }
 }
