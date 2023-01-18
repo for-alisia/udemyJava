@@ -1,6 +1,7 @@
 package pro.elenaromanova.guessingGame;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -37,11 +38,13 @@ public class GuessingGameTest {
         assertEquals("Please try again!", msg);
     }
 
-    @Test
+
+    @RepeatedTest(5)
     public void testRandomNumberGeneration() {
         int[] arr = new int[11];
-        for (int counter = 0; counter < 100; counter++) {
-            int rndNumber = game.getRndNumber();
+        for (int counter = 0; counter < 60; counter++) {
+            GuessingGame newGame = new GuessingGame();
+            int rndNumber = newGame.getRndNumber();
             arr[rndNumber] = 1;
         };
 

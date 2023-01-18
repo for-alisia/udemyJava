@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16520c9d-d3f4-478b-8ef5-8917151a788b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mainToTest/pro/elenaromanova/guessingGame/GuessingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/pro/elenaromanova/guessingGame/GuessingGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainToTest/pro/elenaromanova/guessingGame/GuessingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainToTest/pro/elenaromanova/guessingGame/GuessingGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/pro/elenaromanova/guessingGame/GuessingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pro/elenaromanova/guessingGame/GuessingGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="pro.elenaromanova.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GuessingGameTest.testRandomNumberGeneration">
+  <component name="RunManager" selected="JUnit.GuessingGameTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyJava" />
       <extension name="coverage">
@@ -136,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GuessingGameTest.testRandomNumberGeneration" />
         <item itemvalue="JUnit.GuessingGameTest" />
+        <item itemvalue="JUnit.GuessingGameTest.testRandomNumberGeneration" />
         <item itemvalue="JUnit.GuessingGameTest.testSimpleWinSituation" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.annuityPractice2" />
