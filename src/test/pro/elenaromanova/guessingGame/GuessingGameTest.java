@@ -5,11 +5,12 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class GuessingGameTest {
 
     private GuessingGame game;
-    private final int RND_GENERATOR_TRIES = 100;
+    private static final int RND_GENERATOR_TRIES = 100;
 
     @BeforeEach
     void setUp() {
@@ -28,7 +29,7 @@ public class GuessingGameTest {
     public void testWrongGuessNegSituation() {
         String msg = game.guess(-5);
 
-        assertEquals("Please try again!", msg);
+        assertEquals("Please try again! Too low!", msg);
     }
 
     @Test
@@ -36,7 +37,7 @@ public class GuessingGameTest {
         int rndNumber = game.getRndNumber();
         String msg = game.guess(rndNumber + 1);
 
-        assertEquals("Please try again!", msg);
+        assertEquals("Please try again! Too high!", msg);
     }
 
 
@@ -64,7 +65,17 @@ public class GuessingGameTest {
             result = game.guess(-3);
         }
 
-        assertEquals("The game is over. You used all tries", result);
+        assertEquals("The game is over. You used 4 tries", result);
+    }
+
+    @Test
+    public void testTenWrongGuesses() {
+        String result = "";
+        for (int i = 0; i < 10; i++) {
+            result = game.guess(-3);
+        }
+
+        assertEquals("The game is over. You are limited only 4 tries", result);
     }
 
     @Test
@@ -85,7 +96,7 @@ public class GuessingGameTest {
             int guess =  i == 2 ? game.getRndNumber() : -3;
             result = game.guess(guess);
         }
-
+        assertTrue(result.contains(" 3 "), "Should contain 3 for tries");
         assertEquals("You got it in 3 tries!", result);
     }
 }

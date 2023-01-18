@@ -9,6 +9,9 @@
 - Move a line: **Shift + Opt + Up/Down**
 - Change selection mode: **Shift + Cmd + 8**
 - Go to the according test class: **Shift + Cmd + T**
+- Join lines: **Ctrl + Shift + J**
+- Rename var: **Shift + F6**
+- Build: **Cmd + F9**
 
 
 ## Abrs
