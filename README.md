@@ -1,3 +1,5 @@
+# Java Small Examples
+
 ## Useful IntelliJ shortcuts
 
 - To run method (class): **Shift + Ctrl + R**
